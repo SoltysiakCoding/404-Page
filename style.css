@@ -1,4 +1,5 @@
 .body  {
+	margin: 1px;
   min-height: 98%;
   max-height: 98%;
   min-width: 99%;
@@ -10,10 +11,11 @@
 }
 
 img {
+	margin: 1px;
   min-height: 98%;
   max-width: 99%;
   max-height: 98%;
-
+  background: url(https://media.istockphoto.com/photos/error-404-page-not-found-concept-picture-id846723338);
   width: auto;
   height: auto;
   position: absolute;
