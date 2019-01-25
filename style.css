@@ -4,7 +4,7 @@
 		background-repeat:  no-repeat;
 		background-attachment: fixed;
 		background-size:  cover;
-		background-color: #999;
+		background-color: #9BA4FF;
 }
 
 div, body{
@@ -21,7 +21,9 @@ div, body{
 	text-align: center;
 	position: absolute;
   	background-image: url(https://sitechecker.pro/wp-content/uploads/2017/12/404.png);
-  	height: 100%; 
+  	background-color: #9BA4FF;
+  	height: 100%;
+  	width: 100% 
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -36,8 +38,8 @@ div, body{
   bottom: 0%; 
   display: block;
   position: absolute;
-  background-color: rgba(0,0,0,0.6);
-  color: #fff;
+  background-color: #9BA4FF;
+  color: #9BA4FF;
   padding: 0.5em;
   text-align: center;
   position: static;
@@ -89,6 +91,7 @@ div, body{
 }
 #sContent li {
 	display: inline;
+
 }
 
 #sContent {
@@ -98,7 +101,8 @@ div, body{
 	width: 450px;
 	margin: 0;            
 	padding: 0;
-
+	width: 25px;
+	height: 25px;
 	animation-name: AutoSlide;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
